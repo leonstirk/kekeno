@@ -2,8 +2,6 @@
   <parties-form [hidden]="!user" style="float: left"></parties-form>
   <input type="text" #searchtext placeholder="Search by Location">
   <button type="button" (click)="search(searchtext.value)">Search</button>
-  
-  <login-buttons></login-buttons>
 
   <h1>Parties:</h1>
 
@@ -30,14 +28,14 @@
   </ul>
 
   <sebm-google-map
-    [latitude]="0"
-    [longitude]="0"
-    [zoom]="1">
+     [latitude]="0"
+     [longitude]="0"
+     [zoom]="1">
     <div *ngFor="let party of parties | async">
       <sebm-google-map-marker
-        *ngIf="party.location.lat"
-        [latitude]="party.location.lat"
-        [longitude]="party.location.lng">
+         *ngIf="party.location.lat"
+         [latitude]="party.location.lat"
+         [longitude]="party.location.lng">
       </sebm-google-map-marker>
     </div>
   </sebm-google-map>
