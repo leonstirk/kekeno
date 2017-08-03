@@ -1,13 +1,15 @@
 import { Route } from '@angular/router';
 import { Meteor } from 'meteor/meteor';
 
+import { HomeComponent } from './home/home.component';
 import { PartiesListComponent } from './parties/parties-list.component';
 import { PartyDetailsComponent } from './parties/party-details.component';
 
 export const routes: Route[] = [
-  { path: '', component: PartiesListComponent, pathMatch:'full' },
+  { path: '', component: HomeComponent, pathMatch:'full' },
+  { path: 'parties', component: PartiesListComponent },
   { path: 'party/:partyId', component: PartyDetailsComponent, canActivate: ['canActivateForLoggedIn'] },
-    { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '' }
 ];
 
 export const ROUTES_PROVIDERS = [{

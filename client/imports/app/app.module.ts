@@ -1,3 +1,4 @@
+import {enableProdMode} from '@angular/core';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -9,7 +10,10 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
 import { AppComponent } from './app.component';
 import { routes, ROUTES_PROVIDERS } from './app.routes';
 import { PARTIES_DECLARATIONS } from './parties';
+import { HOME_DECLARATIONS } from './home';
 import { SHARED_DECLARATIONS } from './shared';
+
+// enableProdMode();
 
 @NgModule({
   imports: [
@@ -26,6 +30,7 @@ import { SHARED_DECLARATIONS } from './shared';
   declarations: [
     AppComponent,
     ...PARTIES_DECLARATIONS,
+    ...HOME_DECLARATIONS,
     ...SHARED_DECLARATIONS
   ],
   providers: [
