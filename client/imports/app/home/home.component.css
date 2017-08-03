@@ -1,5 +1,5 @@
 home #landing {
-    background: no-repeat center center fixed url('images/1920_x_1080_landing.png');
+    background: no-repeat center center url('images/1920_x_1080_landing.png');
     height: 100vh;
     padding: 150px 15px 0px;
     -webkit-background-size: cover;

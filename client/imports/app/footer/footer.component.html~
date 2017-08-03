@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="d-flex justify-content-start align-items-center">
+      <div class="p-2">
+	<a href="/home"><img class="footer-logo" src="/images/200_x_30_footerLogo.png" /></a>
+      </div>
+      <div class="ml-auto p-2"><i (click)="goToTop()" class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    </div>
+  </div>
+</div>

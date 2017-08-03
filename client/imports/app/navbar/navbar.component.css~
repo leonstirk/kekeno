@@ -1,0 +1,18 @@
+navbar {
+  font-family: 'Franklin', sans-serif;
+}
+
+navbar .navbar-brand {
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggleable-md .navbar-nav .nav-link {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+    }
+}
+
+/* navbar .navbar-brand::before { */
+/*   content: url(images/32_x_32_favicon.ico); */
+/* } */

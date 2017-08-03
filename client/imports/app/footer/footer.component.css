@@ -1,0 +1,8 @@
+footer {
+  font-family: 'Franklin', sans-serif;
+}
+
+footer .footer-brand {
+  text-transform: uppercase;
+  text-decoration: none;
+}
