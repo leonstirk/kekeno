@@ -7,10 +7,10 @@ import { RouterModule } from '@angular/router';
 import { AccountsModule } from 'angular2-meteor-accounts-ui';
 import { Ng2PaginationModule } from 'ng2-pagination';
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { Parallax, ParallaxConfig } from '../../../node_modules/ng2-parallax/dist/ts/commonjs/parallax.directive';
 
 import { AppComponent } from './app.component';
 import { routes, ROUTES_PROVIDERS } from './app.routes';
-import { PARTIES_DECLARATIONS } from './parties';
 import { NAVBAR_DECLARATIONS } from './navbar';
 import { HOME_DECLARATIONS } from './home';
 import { ABOUT_DECLARATIONS } from './about';
@@ -35,13 +35,13 @@ import { SHARED_DECLARATIONS } from './shared';
   ],
   declarations: [
     AppComponent,
-    ...PARTIES_DECLARATIONS,
     ...NAVBAR_DECLARATIONS,
     ...HOME_DECLARATIONS,
     ...ABOUT_DECLARATIONS,
     ...CONTACT_DECLARATIONS,
     ...FOOTER_DECLARATIONS,
-    ...SHARED_DECLARATIONS
+    ...SHARED_DECLARATIONS,
+    Parallax
   ],
   providers: [
     ...ROUTES_PROVIDERS

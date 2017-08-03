@@ -4,8 +4,16 @@
 @font-face {
   font-family: 'Franklin';
   src: url('fonts/FranklinGothic-Book.eot');
-  src: local('@'), url('fonts/FranklinGothic-Book.woff') format('woff'), url('fonts/FranklinGothic-Book.ttf') format('truetype');
+  src: local('@'), url('fonts/FranklinGothic-Book.woff') format('woff'), url('fonts/FranklinGothic-Book.ttf') format('truetype'), url('fonts/FranklinGothic-Book.svg') format('svg');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FranklinBold';
+  src: url('fonts/FranklinBold.eot');
+  src: local('@'), url('fonts/FranklinBold.woff') format('woff'), url('fonts/FranklinBold.ttf') format('truetype'), url('fonts/FranklinBold.svg') format('svg');
+  font-weight: bold;
   font-style: normal;
 }
  

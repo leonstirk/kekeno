@@ -8,4 +8,5 @@ import style from './home.component.css';
   template,
   styles: [String(style)]
 })
+
 export class HomeComponent {}
