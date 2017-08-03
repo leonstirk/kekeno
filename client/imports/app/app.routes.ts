@@ -7,8 +7,8 @@ import { PartyDetailsComponent } from './parties/party-details.component';
 
 export const routes: Route[] = [
   { path: '', component: HomeComponent, pathMatch:'full' },
-  { path: 'parties', component: PartiesListComponent },
-  { path: 'party/:partyId', component: PartyDetailsComponent, canActivate: ['canActivateForLoggedIn'] },
+//  { path: 'parties', component: PartiesListComponent },
+//  { path: 'party/:partyId', component: PartyDetailsComponent, canActivate: ['canActivateForLoggedIn'] },
   { path: '**', redirectTo: '' }
 ];
 

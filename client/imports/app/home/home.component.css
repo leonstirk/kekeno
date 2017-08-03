@@ -1,7 +1,9 @@
-home div {
-    background-color: #000;
-}
-
-home p {
-    color: red;
+home #landing {
+    background: no-repeat center center fixed url('images/1920_x_1080_landing.png');
+    height: 100vh;
+    padding: 150px 15px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
