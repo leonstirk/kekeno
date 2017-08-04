@@ -12,8 +12,8 @@ import style from './home.component.css';
 
 export class HomeComponent {
   parallaxConfig: ParallaxConfig = {
-    initialValue: 50,
-    ratio: -0.3
+    initialValue: 0,
+    ratio: 0.3
   };
 
   constructor() {}

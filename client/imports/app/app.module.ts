@@ -50,11 +50,4 @@ import { SHARED_DECLARATIONS } from './shared';
     AppComponent
   ]
 })
-export class AppModule {
-  parallaxConfig: ParallaxConfig = {
-    initialValue: -300,
-    ratio: .3
-  };
-
-  constructor() {}
-}
+export class AppModule {}

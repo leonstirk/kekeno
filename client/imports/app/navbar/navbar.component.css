@@ -7,7 +7,7 @@ navbar .navbar-brand {
 }
 
 @media (min-width: 992px) {
-    .navbar-toggleable-md .navbar-nav .nav-link {
+    navbar .navbar-toggleable-md .navbar-nav .nav-link {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
     }

@@ -3,20 +3,50 @@ home *[parallax] {
 }
 
 home #landing {
-    font-family: 'FranklinBold', sans-serif;
-    font-weight: bold;
+
     color: white;
 
-    height: 100vh;
-    max-height: 500px;
+    height: 650px;
     background-image: url('images/1920_x_1400_otago.png');
-    padding: 150px 15px 0px;
+ 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+home #landing .container-fluid {
+   padding: 30px 15px 0px;
+}
+
+@media (min-width: 576px) {
+  home #landing .container-fluid {
+      padding: 90px 15px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  home #landing .container-fluid {
+    padding: 100px 15px 0px;
+  }
+}
+
+@media (min-width: 991px) {
+  home #landing .container-fluid {
+    padding: 130px 15px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  home #landing .container-fluid {
+    padding: 150px 15px 0px;
+  }
+}
+
+home #landing h1 {
+    font-family: 'FranklinBold', sans-serif;
+    font-weight: bold;
+}
 
 home .container:first-child {
   padding: 50px 15px;
