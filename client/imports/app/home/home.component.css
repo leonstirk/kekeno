@@ -7,10 +7,9 @@ home #landing {
     font-weight: bold;
     color: white;
 
-
     height: 100vh;
-    max-height: 580px;
-    background-image: url('images/1920_x_1080_otago.png');
+    max-height: 500px;
+    background-image: url('images/1920_x_1400_otago.png');
     padding: 150px 15px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
