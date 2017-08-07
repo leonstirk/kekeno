@@ -4,6 +4,15 @@ navbar {
 
 navbar .navbar-brand {
   text-transform: uppercase;
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+
+navbar .navbar-brand img {
+  position: relative;
+  top: -2px;
+  left: -4px;
 }
 
 @media (min-width: 992px) {
