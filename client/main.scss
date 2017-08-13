@@ -13,6 +13,7 @@ $tar:		#222222;
 $black:         #000000;
 
 $slate:         #1f2d3a;
+$ocean:		#2b3f56;
 
 /* background colours */
 $color-feature: $white;
@@ -139,4 +140,25 @@ footer, .dark {
     text-decoration: none;
     color: $focus-color-light;
   }
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+}
+
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: $ocean;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: none;
 }

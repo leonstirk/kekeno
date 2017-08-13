@@ -1,0 +1,85 @@
+home *[parallax] {
+    background-repeat: no-repeat;
+}
+
+home #landing {
+    color: white;
+
+    height: 650px;
+    background-image: url('images/3008_x_2000_otago.png');
+ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+home #landing .container-fluid {
+   padding: 40px 15px 0px;
+}
+
+@media (min-width: 576px) {
+  home #landing .container-fluid {
+      padding: 60px 15px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  home #landing .container-fluid {
+    padding: 80px 15px 0px;
+  }
+}
+
+@media (min-width: 991px) {
+  home #landing .container-fluid {
+    padding: 80px 15px 0px;
+  }
+
+  home .feature {
+      background-image: url('images/1920_x_1080_project.png');
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  home #landing .container-fluid {
+    padding: 80px 15px 0px;
+  }
+}
+
+home .container:first-child {
+  padding: 50px 15px;
+}
+
+home .container {
+  margin-bottom: 50px;
+}
+
+home .container:last-child {
+  margin-bottom: 0px;
+}
+
+home .row {
+  margin-bottom: 50px;
+}
+
+home .row:last-child {
+  margin-bottom: 0px;
+}
+
+home .photo-credit {
+    margin-top: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+    text-decoration:none;
+    padding: 6px 10px 4px;
+    font-size:0.6rem;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:4px;
+}
