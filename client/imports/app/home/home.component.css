@@ -6,7 +6,7 @@ home #landing {
     color: white;
 
     height: 650px;
-    background-image: url('images/1920_x_1400_otago.png');
+    background-image: url('images/3008_x_2000_otago.png');
  
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -69,4 +69,18 @@ home .row {
 
 home .row:last-child {
   margin-bottom: 0px;
+}
+
+home .photo-credit {
+    margin-top: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+    text-decoration:none;
+    padding: 6px 10px 4px;
+    font-size:0.6rem;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:4px;
 }

@@ -12,9 +12,11 @@ $basalt: 	#444444;
 $tar:		#222222;
 $black:         #000000;
 
+$slate:         #1f2d3a;
+
 /* background colours */
 $color-feature: $white;
-$color-dark:    $asbestos;
+$color-dark:    $slate;
 $color-light:   $concrete;
 $color-navbar:  $clouds;
 $color-sitemap: $basalt;
@@ -29,10 +31,15 @@ $text-color-sitemap: $white;
 $text-color-footer:  $white;
 
 /* link colors */
-$link-color-dark:   $white;
-$hover-color-dark:  $paper;
-$active-color-dark: $silver;
-$focus-color-dark:  $white;
+$link-color-dark:    $paper;
+$hover-color-dark:   $silver;
+$active-color-dark:  $concrete;
+$focus-color-dark:   $paper;
+
+$link-color-light:   $basalt;
+$hover-color-light:  $gravel;
+$active-color-light: $concrete;
+$focus-color-light:  $basalt;
 
 @font-face {
   font-family: 'Franklin';
@@ -92,21 +99,44 @@ footer > div {
   color: $text-color-dark;
 }
 
-a {
-  text-decoration: none;
-  color: $link-color-dark;
+footer, .dark {
+  a {
+    text-decoration: none;
+    color: $link-color-dark;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $hover-color-dark;
+  }
+
+  a:active {
+    color: $active-color-dark;
+  }
+
+  a:focus {
+    text-decoration: none;
+    color: $focus-color-dark;
+  }
 }
 
-a:hover {
-  text-decoration: none;
-  color: $hover-color-dark;
-}
+.feature, .light {
+  a {
+    text-decoration: none;
+    color: $link-color-light;
+  }
 
-a:active {
-  color: $active-color-dark;
-}
+  a:hover {
+    text-decoration: none;
+    color: $hover-color-light;
+  }
 
-a:focus {
-  text-decoration: none;
-  color: $focus-color-dark;
+  a:active {
+    color: $active-color-light;
+  }
+
+  a:focus {
+    text-decoration: none;
+    color: $focus-color-light;
+  }
 }
