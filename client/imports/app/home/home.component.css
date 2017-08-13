@@ -3,7 +3,6 @@ home *[parallax] {
 }
 
 home #landing {
-
     color: white;
 
     height: 650px;
@@ -16,30 +15,39 @@ home #landing {
 }
 
 home #landing .container-fluid {
-   padding: 30px 15px 0px;
+   padding: 40px 15px 0px;
 }
 
 @media (min-width: 576px) {
   home #landing .container-fluid {
-      padding: 90px 15px 0px;
+      padding: 60px 15px 0px;
   }
 }
 
 @media (min-width: 768px) {
   home #landing .container-fluid {
-    padding: 100px 15px 0px;
+    padding: 80px 15px 0px;
   }
 }
 
 @media (min-width: 991px) {
   home #landing .container-fluid {
-    padding: 130px 15px 0px;
+    padding: 80px 15px 0px;
+  }
+
+  home .feature {
+      background-image: url('images/1920_x_1080_project.png');
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
   }
 }
 
 @media (min-width: 1200px) {
   home #landing .container-fluid {
-    padding: 150px 15px 0px;
+    padding: 80px 15px 0px;
   }
 }
 

@@ -1,6 +1,39 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./imports/app/colors.scss";
 
+$white:         #ffffff;
+$clouds:	#eeeeee;
+$paper:         #dddddd;
+$silver:	#bbbbbb;
+$concrete:      #aaaaaa;
+$gravel:        #888888;
+$asbestos:      #666666;
+$basalt: 	#444444;
+$tar:		#222222;
+$black:         #000000;
+
+/* background colours */
+$color-feature: $white;
+$color-dark:    $asbestos;
+$color-light:   $concrete;
+$color-navbar:  $clouds;
+$color-sitemap: $basalt;
+$color-footer:  $tar;
+
+/* text colors */
+$text-color-feature: $basalt;
+$text-color-dark:    $clouds;
+$text-color-light:   $tar;
+$text-color-navbar:  $white;
+$text-color-sitemap: $white;
+$text-color-footer:  $white;
+
+/* link colors */
+$link-color-dark:   $white;
+$hover-color-dark:  $paper;
+$active-color-dark: $silver;
+$focus-color-dark:  $white;
+
 @font-face {
   font-family: 'Franklin';
   src: url('fonts/FranklinGothic-Book.eot');
@@ -40,11 +73,40 @@ h3 {
 }
 
 .dark {
-  background-color: #444444;
-  color: #cccccc;
+  background-color: $color-dark;
+  color: $text-color-dark;
 }
 
 .light {
-  background-color: #ffffff;
-  color: #444444;
+  background-color: $color-light;
+  color: $text-color-light;
+}
+
+.feature {
+  background-color: $color-feature;
+  color: $text-color-feature;
+}
+
+footer > div {
+  background-color: $tar;
+  color: $text-color-dark;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color-dark;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $hover-color-dark;
+}
+
+a:active {
+  color: $active-color-dark;
+}
+
+a:focus {
+  text-decoration: none;
+  color: $focus-color-dark;
 }

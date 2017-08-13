@@ -6,3 +6,9 @@ footer .footer-brand {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+footer > div {
+  -moz-box-shadow:    inset 0px 2px 8px -3px #000;
+  -webkit-box-shadow: inset 0px 2px 8px -3px #000;
+  box-shadow:         inset 0px 2px 8px -3px #000;
+}
