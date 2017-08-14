@@ -5,7 +5,6 @@ home *[parallax] {
 home #landing {
     color: white;
 
-    height: 710px;
     background-image: url('images/3008_x_2000_otago.png');
  
     -webkit-background-size: cover;
@@ -15,24 +14,24 @@ home #landing {
 }
 
 home #landing .container-fluid {
-   padding: 40px 15px 0px;
+   padding: 20px 15px 10px;
 }
 
 @media (min-width: 576px) {
   home #landing .container-fluid {
-      padding: 60px 15px 0px;
+      padding: 30px 15px 10px;
   }
 }
 
 @media (min-width: 768px) {
   home #landing .container-fluid {
-    padding: 80px 15px 0px;
+    padding: 40px 15px 10px;
   }
 }
 
 @media (min-width: 991px) {
   home #landing .container-fluid {
-    padding: 80px 15px 0px;
+    padding: 40px 15px 10px;
   }
 
   home .feature {
