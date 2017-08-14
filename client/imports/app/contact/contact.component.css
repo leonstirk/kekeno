@@ -1,5 +1,11 @@
-contact > div {
-    padding-top: 150px;
-    padding-bottom: 150px;
+contact {
     min-height: 100vh;
+}
+
+contact > div {
+    padding-top: 80px;
+}
+
+contact > div:last-child {
+    padding-bottom: 80px;
 }
