@@ -5,7 +5,7 @@ home *[parallax] {
 home #landing {
     color: white;
 
-    height: 650px;
+    height: 710px;
     background-image: url('images/3008_x_2000_otago.png');
  
     -webkit-background-size: cover;
