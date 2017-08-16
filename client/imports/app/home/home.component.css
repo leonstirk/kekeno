@@ -42,9 +42,18 @@ home #landing .container-fluid {
       -o-background-size: cover;
       background-size: cover;
   }
+
+  home .feature2 {
+      background-image: url('images/1920_x_1080_project2.png');
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 }
 
-home .dark {
+home .ousa {
   background-image: url('images/1920_x_1080_ousa.png');
 
   -webkit-background-size: cover;

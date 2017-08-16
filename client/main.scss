@@ -12,13 +12,15 @@ $basalt: 	#444444;
 $tar:		#222222;
 $black:         #000000;
 
+$sky:		#c0d3d8;
+$storm:		#8cb4c1;
 $slate:         #1f2d3a;
 $ocean:		#2b3f56;
 
 /* background colours */
 $color-feature: $white;
 $color-dark:    $slate;
-$color-light:   $concrete;
+$color-light:   $storm;
 $color-navbar:  $clouds;
 $color-sitemap: $basalt;
 $color-footer:  $tar;
@@ -67,6 +69,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+.bg-faded {
+  background-color: $sky;
+}
+
 h1 {
   margin-bottom: 1.5rem;
 }
@@ -80,7 +86,7 @@ h3 {
   height: 450px;
 }
 
-.dark {
+.dark, .ousa {
   background-color: $color-dark;
   color: $text-color-dark;
 }
@@ -95,12 +101,23 @@ h3 {
   color: $text-color-feature;
 }
 
+.feature2 {
+  background-image: url('images/1435_x_1080_project2.png');
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: $text-color-feature;
+}
+
 footer > div {
   background-color: $tar;
   color: $text-color-dark;
 }
 
-footer, .dark {
+footer, .dark, .ousa {
   a {
     text-decoration: none;
     color: $link-color-dark;
